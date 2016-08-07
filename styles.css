@@ -1,0 +1,388 @@
+/****** PERSONALIZED DEFAULT ******/
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 3.0em;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*li {
+    list-style: none;
+}*/
+
+img {
+    max-width: 100%;
+}
+
+body {
+    max-width: 100%;
+    background-color: lightgrey;
+}
+
+
+
+/* MOBILE SCREEN SIZE */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .main-header {
+        max-width: 95%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .name a {
+        color: black;
+    }
+
+    .links li {
+        border: 3px solid #fff;
+        margin-top: 10px;
+        padding: 10px 5px;
+        background-color: #fff;
+    }
+
+    .links li a {
+        color: black;
+    }
+
+    .header-content {
+        display: flex;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .con-1 {
+        color: gray;
+    }
+
+    .name, .links, .links li  {
+        display: block; 
+        text-align: center;
+    }
+
+    .links, .links li {
+        margin-right: 15px;
+    }
+
+    .main-container {
+        background-color: #fff;
+        text-align: center;
+        padding: 20px 1em 20px 1em;
+    }
+
+    .contact {
+        text-align: center;
+        padding: 30px 1em 40px 1em;
+        border-bottom: 3px solid lightslategray;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .contact :nth-child(3) {
+        margin-top: 40px;
+    }
+
+    /*.footer {
+        
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+    }*/
+
+    /*.footer :nth-child(1) {
+        justify-content: space-between;
+    }*/
+
+    /*.footer, .footer-2 {
+        display: inline-block;
+        vertical-align: bottom;
+    }*/
+
+    .main-footer {
+        width: 90%;
+    }
+
+    .main-footer, .footer, .footer-2 {
+        display: flex;
+        justify-content: space-between;
+        /*margin-right: 60px;*/
+        margin-left: 15px;
+    }
+
+    .footer-3 {
+        visibility: hidden;
+    }
+
+    .bottom a {
+        color: black;
+    }
+
+}
+
+/* TABLET SCREEN SIZE */
+@media only screen and (min-width: 767px) and (max-width: 1023px)  {
+    .main-header {
+        text-align: center;
+    }
+
+    .name a {
+        color: black;
+    }
+
+    .links {
+        margin-right: -5px;
+    }
+
+    .links li {
+        display: inline-block;
+        margin-right: 50px;
+    }
+
+    .links li a {
+        color: black;
+        font-weight: bold;
+    }
+
+    .header-content {
+        display: flex;
+        padding: 0 1.5em 0 1.5em;
+        color: gray;
+        margin-top: 50px;
+    }
+
+    .header-content :nth-child(2) {
+        margin-left: 10px;
+    }
+
+    .main-container {
+        background-color: #fff;
+        padding: 40px 0;
+        margin-top: 50px;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .content-1, .content-2 {
+        display: inline-block;
+        padding: 0 1em 0 1em;
+        margin-right: -4px;
+        vertical-align: top;
+        text-align: center;
+    }
+
+    .content-1 {
+        width: 50%
+    }
+
+    .content-2 {
+        width: 50%;
+    }
+
+    .content-3, .content-4 {
+       display: inline-block;
+       padding: 0 1em 0 1em;
+       margin-right: -4px;
+       vertical-align: top;
+       text-align: center; 
+    }
+
+    .content-3 {
+        width: 50%
+    }
+
+    .content-4 {
+        width: 50%;
+    }
+
+    .content-5, .content-6 {
+       display: inline-block;
+       padding: 0 1em 0 1em;
+       margin-right: -4px;
+       vertical-align: top;
+       text-align: center;  
+    }
+
+    .content-5 {
+        width: 50%;
+    }
+
+    .content-6 {
+        width: 50%;
+    }
+
+    .contact {
+        text-align: center;
+        padding: 0 2em 0 2em;
+        border-bottom: 3px solid lightslategray;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .contact :nth-child(3) {
+        margin-top: 40px;
+    }
+
+    .main-footer, .footer-3, .links-2, .links-2 li {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10%;
+        text-align: center;
+        /*margin-right: 10%;*/
+    }
+
+    /*.main-footer {
+        margin-left: 10%;
+        margin-right: 10%;
+    }*/
+
+
+
+    .links-2 li {
+        margin-left: 10px;
+        /*list-style: none;*/
+    }
+
+    .links-2 li a {
+        color: black
+    }
+
+    .footer-2{
+        visibility: hidden;
+    }
+    
+
+
+
+
+}
+
+/* DESKTOP SCREEN SIZE */
+@media only screen and (min-width: 1024px) {
+.main-header {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.name a {
+    color: black;
+}
+
+.main-header, .name, .links, .links li {
+   display: inline-block;
+}
+
+.links {
+    margin-left: 809.22px;
+}
+
+.links li {
+    margin-right: 10px;
+}
+
+.links li a {
+    color: black;
+    font-weight: bolder;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.con-1 {
+    font-size: 2em;
+    color: gray;
+}
+
+.main-container {
+    background-color: #fff;
+    padding: 40px 0;
+    margin: 40px 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.content-1, .content-2, .content-3  {
+    display: inline-block;
+    width: 33%;
+    padding: 0 1em 0 1em;
+    vertical-align: top;
+    text-align: center;
+}
+
+.content-4, .content-5, .content-6 {
+    display: inline-block;
+    width: 33%;
+    padding: 0 1em 0 1em;
+    vertical-align: top;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    border-bottom: 3px solid lightslategray;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contact :nth-child(3) {
+    margin-top: 50px;
+}
+
+.main-footer, .links-2 {
+        display: flex; 
+        justify-content: space-between;
+        /*justify-content: center;*/
+        /*justify-content: space-between;*/
+        margin-left: 0 auto;
+    }
+
+
+.footer {
+    margin-left: 5em;
+}
+
+.main-footer {
+        /*margin-left: 5%;*/
+        /*margin-right: 5%;*/
+        width: 90%;
+    }
+
+.links-2 {
+    margin-left: 41em;
+}
+
+.links-2 li {
+        margin-left: 10px;
+        list-style: none;
+    }
+
+.links-2 li a {
+        color: black
+    }
+
+.bottom {
+    visibility: hidden;
+}
+
+}
